@@ -165,6 +165,7 @@ branch.master.remote=origin
 branch.master.merge=refs/heads/master
 user.name=Manju-Chinnanagoudar
 
+========Enter q for exit
 =============To see the files in Folder
 BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
 $ ls
