@@ -1,1 +1,204 @@
-For Testing
+#Create a folder named Git in desired loaction and open the folder in git bash
+
+BaD BoY@BaDBoY MINGW64 /c/Users/CLIENT/Desktop
+$ cd /e
+
+BaD BoY@BaDBoY MINGW64 /e
+$ ls
+'$RECYCLE.BIN'/  'Books n Notes'/   DBC14/      downloads/   Git/         Movies2/      'Sanju_(RdxHD.Com).mp4'   suri/                         Video/
+ Anaconda3/       Chaitra-2K17/     download/   Forum/      'LAP Apps'/  'New folder'/   songs/                  'System Volume Information'/   Videos/
+
+BaD BoY@BaDBoY MINGW64 /e
+$ cd Git/
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ ls
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ git config --global user.name"Manju-Chinnanagoudar"
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ git config --global user.email"mschinnanagoudar29@gmail.com"
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ git clone https://github.com/Manju-Chinnanagoudar/Practice.git
+Cloning into 'Practice'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ ls
+Practice/
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ cd Practise/
+bash: cd: Practise/: No such file or directory
+
+BaD BoY@BaDBoY MINGW64 /e/Git
+$ cd Practice/
+
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ ls
+README.md
+
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ ls
+README.md  Test.txt
+
+======================Files in folder
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ ls -a
+./  ../  .git/  README.md  Test.txt
+================================Login
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git config user.name "Manju-Chinnanagoudar"
+
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git config user.email "mschinnanagoudar29@gmail.com"
+
+===============Profile details
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git config -l
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.diff=auto
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/Manju-Chinnanagoudar/Practice.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+user.name=Manju-Chinnanagoudar
+(END)
+core.symlinks=true
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/Manju-Chinnanagoudar/Practice.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+user.name=Manju-Chinnanagoudar
+
+=============To see the files in Folder
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ ls
+README.md  Test.txt
+
+===================To upload
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git add Test.txt
+
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Test.txt
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$  git commit -m "First Commit" Test.txt
+[master 5ea1dc3] First Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+BaD BoY@BaDBoY MINGW64 /e/Git/Practice (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 98.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Manju-Chinnanagoudar/Practice.git
+   746ceea..5ea1dc3  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
